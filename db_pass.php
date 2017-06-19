@@ -21,7 +21,7 @@ echo $str;
 function check($log,$pass){
 	global $data;
 	$res = false;
-	if(isset($data["$log"]))
+	if(isset($data[$log]))
 		if($data[$log] == $pass)
 			$res = true;
 	return $res;
