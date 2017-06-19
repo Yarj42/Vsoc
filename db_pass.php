@@ -5,6 +5,8 @@ $data = [
 "user2"=>"user2"
 ];
 
+ echo "test<br>";
+
 $str = "Вы не авторизированы!";
 
 if(isset($_POST["log"] and isset($_POST["pass"]){
@@ -27,6 +29,6 @@ function check($log,$pass){
 	return $res;
 }
 	 
-	 echo "test";
+	
 
 ?>
