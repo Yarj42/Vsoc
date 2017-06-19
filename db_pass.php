@@ -26,5 +26,7 @@ function check($log,$pass){
 			$res = true;
 	return $res;
 }
+	 
+	 echo "test";
 
 ?>
