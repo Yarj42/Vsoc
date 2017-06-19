@@ -7,11 +7,11 @@ $data = [
 
 $str = "Вы не авторизированы!";
 
-if(isset($_POST["log"]) and isset($_POST["pass"]){
+if(isset($_POST["log"]) and isset($_POST["pass"])){
 	if(check($_POST["log"],$_POST["pass"])==true)
 		$str =  "Вы авторизированы!";
 }
-if(isset($_GET["log"] and isset($_GET["pass"]){
+if(isset($_GET["log"]) and isset($_GET["pass"])){
 	if(check($_GET["log"],$_GET["pass"])==true)
 		$str =  "Вы авторизированы!";
 }
