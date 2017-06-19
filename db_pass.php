@@ -5,11 +5,9 @@ $data = [
 "user2"=>"user2"
 ];
 
- echo "test<br>";
-
 $str = "Вы не авторизированы!";
 
-if(isset($_POST["log"] and isset($_POST["pass"]){
+if(isset($_POST["log"]) and isset($_POST["pass"]){
 	if(check($_POST["log"],$_POST["pass"])==true)
 		$str =  "Вы авторизированы!";
 }
@@ -28,7 +26,5 @@ function check($log,$pass){
 			$res = true;
 	return $res;
 }
-	 
-	
 
 ?>
